@@ -13,7 +13,7 @@ export default function PodCastCard({ title, img, content }) {
             </div> */}
         <div className="w-full pl-4">
           <div>
-            <div className="text-md text-white font-medium">{title}</div>
+            <div className="text-md text-amber-400 font-medium">{title}</div>
             <p className="text-gray-300">{content}</p>
           </div>
 

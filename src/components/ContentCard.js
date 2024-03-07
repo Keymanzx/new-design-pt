@@ -35,12 +35,23 @@ export default function ContentCard({ title, img, content }) {
         </div>
         <div className="w-full pl-4">
           <div>
-            <div className="text-xl font-medium text-white">{title}</div>
+            <div className="text-xl font-medium text-amber-400">{title}</div>
             <p className="text-gray-300">{content}</p>
+          </div>
+          <div className="flex space-x-2 pt-2 text-sm">
+            <button className="bg-[#3B3960] text-white px-2 py-1 rounded-full hover:bg-gray-600 transition duration-300 ease-in-out">
+              #หนังดัง
+            </button>
+            <button className="bg-[#3B3960] text-white px-2 py-1 rounded-full hover:bg-gray-600 transition duration-300 ease-in-out">
+              #หนังดี
+            </button>
+            <button className="bg-[#3B3960] text-white px-2 py-1 rounded-full hover:bg-gray-600 transition duration-300 ease-in-out">
+              #หนังน่าดู
+            </button>
           </div>
 
           <div className="text-right text-xs pt-8">
-            <p className="text-white">900,000 views 900,000 Likes</p>
+            <p className="text-white">900,000 views / 900,000 Likes</p>
           </div>
         </div>
       </div>

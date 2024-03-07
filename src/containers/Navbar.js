@@ -7,6 +7,7 @@ const navigation = [
     name: "ตั้งกระทู้",
     href: "#",
     current: false,
+    main: true,
     ic: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -26,6 +27,7 @@ const navigation = [
   },
   {
     name: "คอมมูนิตี้",
+    main: false,
     href: "#",
     current: false,
     ic: <BellIcon className="h-6 w-6" aria-hidden="true" />,
@@ -93,14 +95,14 @@ export default function Navbar() {
                         key={item.name}
                         href={item.href}
                         className={classNames(
-                          item.current
-                            ? "bg-gray-900 text-white"
+                          item.main
+                            ? "bg-amber-400 text-white text-base font-bold"
                             : "text-gray-300 hover:bg-gray-700 hover:text-white",
-                          "rounded-md px-3 py-2 text-sm font-medium"
+                          "flex items-center rounded-md px-3 py-2 text-sm font-medium"
                         )}
                         aria-current={item.current ? "page" : undefined}
                       >
-                        {item.ic}
+                        {item.ic && <span className="mr-1">{item.ic}</span>}
                         {item.name}
                       </a>
                     ))}
