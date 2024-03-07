@@ -5,43 +5,43 @@ import RoomCard from "../components/RoomCard";
 const listCard = [
   {
     ic: <BellIcon className="h-6 w-6" aria-hidden="true" />,
-    title: "สีลม",
-    img: "https://upload.wikimedia.org/wikipedia/th/c/c5/Pantip_Logo.png",
+    title: "สุขภาพยืนหนึ่ง",
+    img: "./1.png",
   },
   {
     ic: <BellIcon className="h-6 w-6" aria-hidden="true" />,
-    title: "รวมมิตร",
-    img: "https://upload.wikimedia.org/wikipedia/th/c/c5/Pantip_Logo.png",
+    title: "ท่องเที่ยว",
+    img: "./2.png",
   },
   {
     ic: <BellIcon className="h-6 w-6" aria-hidden="true" />,
-    title: "รัชดา",
-    img: "https://upload.wikimedia.org/wikipedia/th/c/c5/Pantip_Logo.png",
+    title: "ที่พักที่ดีที่สุด",
+    img: "./3.png",
   },
   {
     ic: <BellIcon className="h-6 w-6" aria-hidden="true" />,
-    title: "การ์ตูน",
-    img: "https://upload.wikimedia.org/wikipedia/th/c/c5/Pantip_Logo.png",
+    title: "อาหารน่าลอง",
+    img: "./4.png",
   },
   {
     ic: <BellIcon className="h-6 w-6" aria-hidden="true" />,
-    title: "ชานเรือน",
-    img: "https://upload.wikimedia.org/wikipedia/th/c/c5/Pantip_Logo.png",
+    title: "ไลฟ์สไตล์",
+    img: "./5.png",
   },
   {
     ic: <BellIcon className="h-6 w-6" aria-hidden="true" />,
-    title: "ห้องสมุด",
-    img: "https://upload.wikimedia.org/wikipedia/th/c/c5/Pantip_Logo.png",
+    title: "กีฬารอบโลก",
+    img: "./6.png",
   },
   {
     ic: <BellIcon className="h-6 w-6" aria-hidden="true" />,
-    title: "ภูมิภาค",
-    img: "https://upload.wikimedia.org/wikipedia/th/c/c5/Pantip_Logo.png",
+    title: "เพลงฮิตติดชาร์ต",
+    img: "./7.png",
   },
   {
     ic: <BellIcon className="h-6 w-6" aria-hidden="true" />,
-    title: "แกลลอรี่",
-    img: "https://upload.wikimedia.org/wikipedia/th/c/c5/Pantip_Logo.png",
+    title: "สัตว์เลี้ยง",
+    img: "./8.png",
   },
 ];
 

@@ -1,13 +1,47 @@
 import React from "react";
 
-export default function ContentCard({ title }) {
+// export default function ContentCard({ title, img, content }) {
+//   return (
+//     <>
+//       <div className="p-6 mx-auto min-w-full bg-[#5B5978] rounded-md shadow-md flex items-center space-x-4 ">
+//         <div className="shrink-0">
+//           <img className="md:w-28 rounded-md" src={img} alt={title}></img>
+//         </div>
+//         <div className="w-full">
+//           <div>
+//             <div className="text-xl font-medium text-white">{title}</div>
+//             <p className="text-gray-300">{content}</p>
+//           </div>
+
+//           <div className="text-right text-xs pt-8">
+//             <p className="text-white"> 900,000 view 900,000 Like </p>
+//           </div>
+//         </div>
+//       </div>
+//     </>
+//   );
+// }
+
+export default function ContentCard({ title, img, content }) {
   return (
     <>
-      <div class=" flex flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
-        <div class="p-6">
-          <h5 class="mb-2 block font-sans text-xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
-            {title}
-          </h5>
+      <div className="p-6 mx-auto min-w-full bg-[#5B5978] rounded-md shadow-md flex flex-col items-center space-y-4 sm:flex-row sm:items-start">
+        <div>
+          <img
+            className="md:w-28 rounded-md sm:order-last"
+            src={img}
+            alt={title}
+          />
+        </div>
+        <div className="w-full pl-4">
+          <div>
+            <div className="text-xl font-medium text-white">{title}</div>
+            <p className="text-gray-300">{content}</p>
+          </div>
+
+          <div className="text-right text-xs pt-8">
+            <p className="text-white">900,000 views 900,000 Likes</p>
+          </div>
         </div>
       </div>
     </>
