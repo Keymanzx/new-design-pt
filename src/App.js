@@ -20,7 +20,7 @@ function App() {
   }, []);
 
   return (
-    <div className="bg-[#3B3960] min-h-screen">
+    <div className="bg-white min-h-screen">
       <div className={`navbar-container ${isNavbarLocked ? 'navbar-locked' : ''}`}>
         <Navbar />
       </div>

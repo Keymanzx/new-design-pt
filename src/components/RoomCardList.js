@@ -37,17 +37,6 @@ const listCard = [
   },
 ];
 
-// export default function RoomCardList() {
-//   return (
-//     <>
-//       <div className="grid grid-cols-4 gap-4">
-//         {listCard.map((item) => {
-//           return <RoomCard title={item.title} img={item.img} />;
-//         })}
-//       </div>
-//     </>
-//   );
-// }
 
 export default function RoomCardList() {
   return (
