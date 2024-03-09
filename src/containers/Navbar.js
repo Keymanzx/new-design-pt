@@ -30,7 +30,7 @@ const navigation = [
     main: false,
     href: "#",
     current: false,
-    ic: <BellIcon className="h-6 w-6" aria-hidden="true" />,
+    ic: <BellIcon className="h-6 w-6 " aria-hidden="true" />,
   },
   //   { name: "Projects", href: "#", current: false },
   //   { name: "Calendar", href: "#", current: false },
@@ -42,7 +42,7 @@ function classNames(...classes) {
 
 export default function Navbar() {
   return (
-    <Disclosure as="nav" className="bg-[#28253F]">
+    <Disclosure as="nav" className="bg-white">
       {({ open }) => (
         <>
           <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
@@ -60,10 +60,11 @@ export default function Navbar() {
                 </Disclosure.Button>
               </div>
               <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
-                <div className="flex flex-shrink-0 items-center">
+                <div className="flex flex-shrink-0 items-center rounded-3xl">
                   <img
-                    className="h-8 w-auto"
-                    src="https://ptcdn.info/mobile/logo-mobile-pantip-white.png"
+                    className="w-12"
+                    src="https://f.ptcdn.info/978/055/000/p3k2z0w5eDbyA2F02dP-o.png"
+                    // src="https://ptcdn.info/mobile/logo-mobile-pantip-white.png"
                     alt="Pantip"
                   />
                 </div>
@@ -96,9 +97,9 @@ export default function Navbar() {
                         href={item.href}
                         className={classNames(
                           item.main
-                            ? "bg-amber-400 text-white text-base font-bold"
-                            : "text-gray-300 hover:bg-gray-700 hover:text-white",
-                          "flex items-center rounded-md px-3 py-2 text-sm font-medium"
+                            ? "bg-amber-400 text-gray-950 text-base font-bold"
+                            : "text-gray-950 hover:bg-gray-700 hover:text-white",
+                          "flex items-center rounded-md px-2 py-2 text-sm font-medium"
                         )}
                         aria-current={item.current ? "page" : undefined}
                       >
