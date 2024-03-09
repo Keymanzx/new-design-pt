@@ -59,9 +59,9 @@ const listCard = [
 export default function PodCastCardList() {
   return (
     <>
-      <div className="bg-[#2D2B49] px-4 py-4 rounded-xl">
+      <div className="bg-gray-100 px-4 py-4 rounded-xl">
         <div className="flex items-center justify-between mb-4">
-          <p className="text-white font-bold flex items-center">
+          <p className="text-gray-900 font-bold flex items-center">
             Podcasts
             <ArrowRightIcon className="h-6 w-6 ml-2" aria-hidden="true" />
           </p>

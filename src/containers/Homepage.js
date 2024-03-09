@@ -1,5 +1,6 @@
 import React from "react";
-import RoomCardList from "../components/RoomCardList";
+// import RoomCardList from "../components/RoomCardList";
+import PhotoCardList from "../components/PhotoCardList";
 import SearchBar from "../components/SearchBar";
 import ContentCardList from "../components/ContentCardList";
 import PodCastCardList from "../components/PodCastCardList";
@@ -8,7 +9,7 @@ export default function Homepage() {
   return (
     <div>
       <div className="p-6">
-        <RoomCardList />
+        <PhotoCardList />
       </div>
 
       <div className="p-6">

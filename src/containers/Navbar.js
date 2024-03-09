@@ -40,7 +40,7 @@ function classNames(...classes) {
 
 export default function Navbar() {
   return (
-    <Disclosure as="nav" className="bg-[#28253F]">
+    <Disclosure as="nav" className="bg-white">
       {({ open }) => (
         <>
           <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
@@ -77,7 +77,7 @@ export default function Navbar() {
                         className={classNames(
                           item.main
                             ? "bg-amber-400 text-gray-950 text-base font-bold mr-2"
-                            : "text-white hover:bg-gray-700 hover:text-white",
+                            : "text- hover:bg-gray-700 hover:text-white",
                           "flex items-center rounded-md px-2 py-2 text-sm font-medium"
                         )}
                         aria-current={item.current ? "page" : undefined}
@@ -156,8 +156,8 @@ export default function Navbar() {
             </div>
           </div>
           <>
-            <div className="px-4 py-4 rounded-xl w-1/2 mx-auto">
-              <div class="relative flex h-10 w-full min-w-[200px] ">
+            <div className="px-4 py-4 rounded-xl  lg:w-[1500px]  sm:w-full 04032543">
+              <div class="relative flex h-10  min-w-[200px] ">
                 <button
                   class="!absolute right-1 top-1 z-10 select-none rounded-3xl bg-amber-400 py-2 px-4 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md transition-all hover:shadow-lg hover:shadow-amber-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none peer-placeholder-shown:pointer-events-none peer-placeholder-shown:bg-blue-gray-500 peer-placeholder-shown:opacity-50 peer-placeholder-shown:shadow-none"
                   type="button"
@@ -188,7 +188,7 @@ export default function Navbar() {
                   className={classNames(
                     item.current
                       ? "bg-gray-900 text-white"
-                      : "text-gray-300 hover:bg-gray-700 hover:text-white",
+                      : "text-gray-900 hover:bg-gray-700 hover:text-white",
                     "block rounded-md px-3 py-2 text-base font-medium"
                   )}
                   aria-current={item.current ? "page" : undefined}

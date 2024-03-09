@@ -2,11 +2,11 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="bg-[#5B5978] text-white p-4">
+    <footer className="bg-white text-black p-4">
       <div className="flex justify-center items-center space-x-4">
-        <p> Copy rigth By @Keymanz
+        <p> Copy-right By @Keymanz
         </p>
-        <a
+        {/* <a
           href="https://www.facebook.com/"
           target="_blank"
           rel="noopener noreferrer"
@@ -38,7 +38,7 @@ const Footer = () => {
             alt="Instagram Logo"
             className="h-8 w-8"
           />
-        </a>
+        </a> */}
       </div>
     </footer>
   );

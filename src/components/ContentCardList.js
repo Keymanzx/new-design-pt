@@ -56,7 +56,7 @@ const listCard = [
 export default function ContentCardList() {
   return (
     <>
-      <div className="bg-[#2D2B49] px-6 py-6 rounded-xl">
+      <div className="bg-gray-100 px-6 py-6 rounded-xl">
         <div className="grid grid-row-1 gap-4 ">
           {listCard.map((item) => {
             return (
