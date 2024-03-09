@@ -14,10 +14,9 @@ export default function Homepage() {
       <div className="p-6">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
           <div className="col-span-1 md:col-span-3">
-            <div className="mb-2">
+            {/* <div className="mb-2">
               <SearchBar />
-            </div>
-
+            </div> */}
             <div>
               <ContentCardList />
             </div>
